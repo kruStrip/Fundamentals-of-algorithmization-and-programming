@@ -1,0 +1,21 @@
+/* Простой, аккуратный стиль */
+:root { --bg:#f7f7f8; --card:#e0e0e0; --accent:#f89a9a; --text:#222; --btn:#2c1f1f; --white:#fff; }
+* { box-sizing:border-box; }
+body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:var(--text); background:var(--bg); }
+
+.container { max-width: 1100px; margin: 0 auto; padding: 16px; }
+
+.top-bar { display:flex; align-items:center; gap:24px; flex-wrap:wrap; }
+
+.btn { background:var(--btn); color:var(--white); border:none; padding:10px 20px; border-radius:22px; font-size:16px; cursor:pointer; }
+.btn:disabled { opacity:.6; cursor:not-allowed; }
+
+.select-wrap { display:flex; align-items:center; gap:12px; }
+.select-wrap label { font-weight:600; }
+
+select { padding:10px 16px; border-radius:24px; border:2px solid var(--accent); background:var(--accent); color:#222; font-size:16px; outline:none; }
+select option { background:#fff; }
+
+.output { margin-top:16px; padding:24px; min-height:520px; border-radius:28px; background:var(--card); display:flex; align-items:center; justify-content:center; font-size:28px; font-weight:600; color:#333; text-align:center; }
+
+

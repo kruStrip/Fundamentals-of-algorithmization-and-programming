@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Примеры типов данных</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-bar">
+        <button id="showBtn" class="btn">Показать</button>
+        <div class="select-wrap">
+          <!-- <label for="typeSelect">Выберите тип</label> -->
+          <select id="typeSelect">
+            <option value="" selected disabled>Выберите тип</option>
+            <option value="int">Integer (int)</option>
+            <option value="float">Float (double/real)</option>
+            <option value="bool">Boolean (bool)</option>
+            <option value="char">Character (char)</option>
+            <option value="str">String (str)</option>
+            <option value="list">Array / List</option>
+            <option value="tuple">Tuple / Struct</option>
+            <option value="dict">Dictionary / Map / Object</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="output" class="output" aria-live="polite"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+
