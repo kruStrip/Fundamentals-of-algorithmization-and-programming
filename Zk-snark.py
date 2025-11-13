@@ -106,9 +106,6 @@ class SimpleZKAge:
 
 def demo():
     """Демонстрация работы"""
-    print("=" * 70)
-    print("Упрощенная zk-SNARK система для проверки возраста")
-    print("=" * 70)
 
     zk = SimpleZKAge(age_threshold=18)
 
